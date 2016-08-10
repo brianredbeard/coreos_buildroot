@@ -1,0 +1,6 @@
+config BR2_PACKAGE_PYTHON_PYSQLITE
+	bool "python-pysqlite"
+	help
+		DB-API 2.0 interface for SQLite 3.x
+		
+		http://github.com/ghaering/pysqlite

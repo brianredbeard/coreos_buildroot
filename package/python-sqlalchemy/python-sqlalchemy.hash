@@ -1,0 +1,3 @@
+# md5 from https://pypi.python.org/pypi/sqlalchemy/json, sha256 locally computed
+md5	6399b5f501ae9b95a08e5343d50b9718  SQLAlchemy-1.1.0b3.tar.gz
+sha256	e1468e94b8cf88e62c183a824a03489d840d6b44afb16954ad3a0d39149bf390  SQLAlchemy-1.1.0b3.tar.gz

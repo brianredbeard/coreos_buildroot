@@ -1,0 +1,19 @@
+config BR2_PACKAGE_SIGUL
+	bool "sigul"
+	select BR2_PACKAGE_PYTHON_FEDORA # runtime
+	select BR2_PACKAGE_PYTHON_MUNCH # runtime
+	select BR2_PACKAGE_PYTHON_KITCHEN # runtime
+	select BR2_PACKAGE_PYTHON_REQUESTS # runtime
+	select BR2_PACKAGE_PYTHON_BEAUTIFULSOUP4 # runtime
+	select BR2_PACKAGE_PYTHON_NSS # runtime
+	select BR2_PACKAGE_PYTHON_URLLIB3 # runtime
+	select BR2_PACKAGE_PYTHON_SIX # runtime
+	select BR2_PACKAGE_PYTHON_PYSQLITE # runtime
+	select BR2_PACKAGE_PYTHON_LOCKFILE # runtime
+	select BR2_PACKAGE_PYTHON_SQLALCHEMY # runtime
+	select BR2_PACKAGE_PYTHON_URLGRABBER # runtime
+	select BR2_PACKAGE_PYTHON_PYGPGME # runtime
+	help
+	  sigul: An automated gpg signing system
+
+	  https://fedorahosted.org/sigul

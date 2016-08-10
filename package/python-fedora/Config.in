@@ -1,0 +1,13 @@
+config BR2_PACKAGE_PYTHON_FEDORA
+	bool "python-fedora"
+	select BR2_PACKAGE_PYTHON_MUNCH # runtime
+	select BR2_PACKAGE_PYTHON_KITCHEN # runtime
+	select BR2_PACKAGE_PYTHON_REQUESTS # runtime
+	select BR2_PACKAGE_PYTHON_BEAUTIFULSOUP4 # runtime
+	select BR2_PACKAGE_PYTHON_URLLIB3 # runtime
+	select BR2_PACKAGE_PYTHON_SIX # runtime
+	select BR2_PACKAGE_PYTHON_LOCKFILE # runtime
+	help
+	  Python modules for interacting with Fedora Services.
+
+	  https://fedorahosted.org/python-fedora

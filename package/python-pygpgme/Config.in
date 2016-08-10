@@ -1,0 +1,6 @@
+config BR2_PACKAGE_PYTHON_PYGPGME
+	bool "python-pygpgme"
+	help
+	  A Python module for working with OpenPGP messages.
+
+	  https://launchpad.net/pygpgme
