@@ -1,5 +1,6 @@
 config BR2_PACKAGE_PYTHON_FEDORA
 	bool "python-fedora"
+	select BR2_PACKAGE_PYTHON_SSL
 	select BR2_PACKAGE_PYTHON_MUNCH # runtime
 	select BR2_PACKAGE_PYTHON_KITCHEN # runtime
 	select BR2_PACKAGE_PYTHON_REQUESTS # runtime
