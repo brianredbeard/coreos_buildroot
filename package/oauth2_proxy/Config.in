@@ -1,0 +1,7 @@
+config BR2_PACKAGE_OAUTH2_PROXY
+	bool "oauth2_proxy"
+	depends on host-go
+	help
+	  OAUTH2_PROXY with patches to support CoreOS Dex
+
+	  https://github.com/coreos/oauth2_proxy
