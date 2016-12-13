@@ -1,0 +1,8 @@
+config BR2_PACKAGE_PYTHON_FS
+	bool "python-fs"
+	select BR2_PACKAGE_PYTHON_SETUPTOOLS # runtime
+	select BR2_PACKAGE_PYTHON_SIX # runtime
+	help
+	  Filesystem abstraction layer.
+
+	  http://pypi.python.org/pypi/fs/

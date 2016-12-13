@@ -1,0 +1,7 @@
+config BR2_PACKAGE_PYTHON_URLGRABBER
+	bool "python-urlgrabber"
+	select BR2_PACKAGE_PYTHON_PYCURL
+	help
+	  A high-level cross-protocol url-grabber.
+
+		http://linux.duke.edu/projects/urlgrabber/

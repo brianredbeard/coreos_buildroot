@@ -1,0 +1,18 @@
+diff --git a/setup.py b/setup.py
+index d0b87b8..d1a9dff 100644
+--- a/setup.py
++++ b/setup.py
+@@ -1,6 +1,12 @@
+ # urlgrabber distutils setup
+ import re as _re
+-import urlgrabber as _urlgrabber
++class _urlgrabber:
++    __version__ = '3.9.1'
++    __date__    = '2009/09/25'
++    __author__  = 'Michael D. Stenner <mstenner@linux.duke.edu>, ' \
++                  'Ryan Tomayko <rtomayko@naeblis.cx>' \
++                  'Seth Vidal <skvidal@fedoraproject.org>'
++    __url__     = 'http://linux.duke.edu/projects/urlgrabber/'
+ 
+ name = "urlgrabber"
+ description = "A high-level cross-protocol url-grabber"

@@ -1,3 +1,21 @@
-menu "Networking applications"  
+menu "Cryptography"
+        source "$BR2_EXTERNAL/package/sigul/Config.in"
+endmenu
+
+menu "Networking applications"
 	source "$BR2_EXTERNAL/package/openresty/Config.in"
+endmenu
+
+menu "Python Packages"
+        source "$BR2_EXTERNAL/package/python-fedora/Config.in"
+        source "$BR2_EXTERNAL/package/python-kitchen/Config.in"
+        source "$BR2_EXTERNAL/package/python-munch/Config.in"
+        source "$BR2_EXTERNAL/package/python-pysqlite/Config.in"
+        source "$BR2_EXTERNAL/package/python-pygpgme/Config.in"
+        source "$BR2_EXTERNAL/package/python-lockfile/Config.in"
+        source "$BR2_EXTERNAL/package/python-sqlalchemy/Config.in"
+        source "$BR2_EXTERNAL/package/python-nss/Config.in"
+        source "$BR2_EXTERNAL/package/python-pycurl/Config.in"
+        source "$BR2_EXTERNAL/package/python-pbr/Config.in"
+        source "$BR2_EXTERNAL/package/python-urlgrabber/Config.in"
 endmenu

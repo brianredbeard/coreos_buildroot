@@ -1,0 +1,8 @@
+config BR2_PACKAGE_PYTHON_NSS
+	bool "python-nss"
+	select BR2_PACKAGE_PYTHON_CFFI # runtime
+	help
+	  Python bindings for Network Security Services (NSS) and Netscape
+	  Portable Runtime (NSPR).
+
+	  http://www.mozilla.org/projects/security/pki/python-nss

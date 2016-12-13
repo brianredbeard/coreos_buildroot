@@ -1,0 +1,8 @@
+config BR2_PACKAGE_PYTHON_LOCKFILE
+	bool "python-lockfile"
+	select BR2_PACKAGE_PYTHON_PBR
+	depends on BR2_PACKAGE_PYTHON_PBR
+	help
+	Platform-independent file locking module (deprecated).
+
+	  https://pypi.python.org/pypi/lockfile

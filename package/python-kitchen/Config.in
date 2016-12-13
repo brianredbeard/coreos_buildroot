@@ -1,0 +1,6 @@
+config BR2_PACKAGE_PYTHON_KITCHEN
+	bool "python-kitchen"
+	help
+	  Kitchen contains a cornucopia of useful code.
+
+	  https://fedorahosted.org/kitchen
